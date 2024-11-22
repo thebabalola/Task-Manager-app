@@ -19,12 +19,13 @@ function LoginPage() {
 
   return (
     <div className="page-container">
-      <nav>
-        <div className="logo">TaskMaster</div>
+      <nav className='dash-nav'>
+        <h1>TaskMaster</h1>
         <Link to="/">
           <button>Home</button>
         </Link>
       </nav>
+      
       <div className="container">
         <div className="card">
           <h1>Login to TaskMaster</h1>

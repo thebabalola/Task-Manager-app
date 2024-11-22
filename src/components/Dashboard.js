@@ -44,12 +44,11 @@ function Dashboard() {
   return (
     <div className={`dashboard ${isDarkMode ? 'dark-mode' : ''}`}>
 
-      <header>
-      <nav>
+      <nav className='dash-nav'>
         <h1>TaskMaster</h1>
         <button onClick={handleLogout}>Logout</button>
       </nav>
-      </header>
+
 
 
       <div className="dashboard-container">

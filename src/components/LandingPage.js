@@ -58,6 +58,7 @@ function LandingPage() {
           </Link>
         </nav>
       </header>
+      
       <main>
         <section id="taskForm">
           <h2>Add New Task</h2>

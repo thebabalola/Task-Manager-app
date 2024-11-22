@@ -26,7 +26,16 @@ function RegisterPage() {
 
   return (
 
+    <div>
+      <nav className='dash-nav'>
+        <div className="logo">TaskMaster</div>
+        <Link to="/">
+          <button>Home</button>
+        </Link>
+      </nav>
+      
     <div className="container">
+      
       <div className="card">
         <h1>Register</h1>
         <p className="subtitle">Create your account to get started</p>
@@ -82,6 +91,8 @@ function RegisterPage() {
         </p>
       </div>
     </div>
+    </div>
+    
   );
 }
 
