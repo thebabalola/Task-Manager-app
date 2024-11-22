@@ -27,12 +27,14 @@ function RegisterPage() {
   return (
 
     <div>
-       <nav className='dash-nav'>
+       <header>
+        <nav >
         <h1>TaskMaster</h1>
         <Link to="/">
           <button>Home</button>
         </Link>
       </nav>
+      </header>
 
     <div className="container">
       

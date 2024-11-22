@@ -49,13 +49,15 @@ function LandingPage() {
     <div>
       <header>
         <h1>TaskMaster</h1>
-        <nav>
-          <Link to="/register">
+        <nav className="nav-dash">
+          <div> 
+            <Link to="/register">
             <button>Register</button>
           </Link>
           <Link to="/login">
             <button>Login</button>
           </Link>
+          </div>
         </nav>
       </header>
       
