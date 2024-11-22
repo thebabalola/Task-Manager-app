@@ -72,10 +72,6 @@ input, textarea, select, button {
     border-radius: 3px;
 }
 
-input {
-    width: 95%;
-}
-
 button[type="submit"] {
     background-color: var(--blue);
     color: var(--white);
@@ -131,6 +127,11 @@ button[type="submit"] {
     border-radius: 8px;
     padding: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 5px solid red;
+}
+
+.card > h1 {
+    text-align: center;
 }
 
 .subtitle {
@@ -141,6 +142,11 @@ button[type="submit"] {
 
 .form-group {
     margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.form-group > input {
+    width: 95%;
 }
 
 label {

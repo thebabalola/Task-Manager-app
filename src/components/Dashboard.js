@@ -10,8 +10,8 @@ function Dashboard() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Simulating API calls to fetch user data and tasks
-    setUser({ name: 'Jane Doe', email: 'jane@example.com', dateJoined: 'May 15, 2023' });
+    // Simulates API calls to fetch user data and tasks
+    setUser({ name: 'User', email: 'user@example.com', dateJoined: 'May 15, 2023' });
     setActiveTasks([
       { id: 1, title: 'Complete project proposal', status: 'In Progress' },
       { id: 2, title: 'Review team performance', status: 'Pending' },
@@ -28,7 +28,7 @@ function Dashboard() {
   };
 
   const handleEditProfilePic = () => {
-    // Implement profile picture edit functionality
+    // Implements profile picture edit functionality
     console.log('Edit profile picture');
   };
 

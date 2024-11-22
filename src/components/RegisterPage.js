@@ -25,6 +25,7 @@ function RegisterPage() {
   };
 
   return (
+
     <div className="container">
       <div className="card">
         <h1>Register</h1>
@@ -74,7 +75,7 @@ function RegisterPage() {
               required
             />
           </div>
-          <button type="submit" className="btn btn-primary"> <Link to="/dashboard"> Register </Link></button>
+          <button type="submit" className="btn btn-primary"> Register </button>
         </form>
         <p className="text-center">
           Already have an account? <Link to="/login" className="link">Log in here</Link>
