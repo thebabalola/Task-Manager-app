@@ -7,13 +7,16 @@
     --black: #000000;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: var(--dark-blue);
     background-color: var(--light-blue);
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -127,7 +130,6 @@ button[type="submit"] {
     border-radius: 8px;
     padding: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 5px solid red;
 }
 
 .card > h1 {
@@ -193,27 +195,26 @@ label {
 
 .dash-nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 80px;
     background-color: var(--blue);
-    border: 2px solid red;
     padding-right: 30px;
 }
 
 .dash-nav h1 {
     color: white;
     font-size: 30px;
-    border: 2px solid red;
+    margin-right: 80%;
+    margin-left: 2%; 
 }
 
-.dash-nav button {
-    border: 2px solid red;
-    margin-left: 5%;
+.dash-nav link {
 }
+
 .dashboard-container {
     display: flex;
+    flex-direction: column;
     padding: 1rem;
     gap: 1rem;
 }
@@ -228,6 +229,7 @@ label {
 
 .dashboard-main {
     flex: 2;
+    justify-content: space-evenly;
     background-color: var(--white);
     padding: 1rem;
     border-radius: 8px;
@@ -268,7 +270,7 @@ label {
 
 .task-stats {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 1rem;
 }
 

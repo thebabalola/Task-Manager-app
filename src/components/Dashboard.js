@@ -51,8 +51,8 @@ function Dashboard() {
         <button onClick={handleLogout}>Logout</button>
       </nav>
 
-
       <div className="dashboard-container">
+
         <aside className="dashboard-aside">
           <div className="profile-section">
             <div className="profile-picture">
