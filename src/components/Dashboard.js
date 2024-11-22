@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import profileImage from '../assets/profile.jpg';
+
 
 function Dashboard() {
   const [user, setUser] = useState({ name: '', email: '', dateJoined: '' });
@@ -50,12 +52,11 @@ function Dashboard() {
       </nav>
 
 
-
       <div className="dashboard-container">
         <aside className="dashboard-aside">
           <div className="profile-section">
             <div className="profile-picture">
-              <img src="https://via.placeholder.com/150" alt="Profile" id="profilePic" />
+              <img src={profileImage} alt="Profile" id="profilePic" />
               <button onClick={handleEditProfilePic} className="edit-profile-pic">
                 <i className="fas fa-edit"></i>
               </button>
@@ -111,7 +112,7 @@ function Dashboard() {
         </div>
       </div>
       <button onClick={toggleSettingsPanel} className="floating-btn">
-        <i className="fas fa-cog"></i>
+        <i className="fas fa-cog"></i> settings
       </button>
     </div>
   );

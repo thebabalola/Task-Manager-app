@@ -31,21 +31,6 @@ h1, h2 {
     margin: 0;
 }
 
-.dash-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    background-color: var(--blue);
-    border: 2px solid red;
-}
-
-.dash-nav h1 {
-    color: white;
-    font-size: 30px;
-}
-
 nav button {
     background-color: var(--dark-blue);
     color: var(--white);
@@ -205,6 +190,28 @@ label {
 }
 
 /* Dashboard Styles */
+
+.dash-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: var(--blue);
+    border: 2px solid red;
+    padding-right: 30px;
+}
+
+.dash-nav h1 {
+    color: white;
+    font-size: 30px;
+    border: 2px solid red;
+}
+
+.dash-nav button {
+    border: 2px solid red;
+    margin-left: 5%;
+}
 .dashboard-container {
     display: flex;
     padding: 1rem;
@@ -315,11 +322,11 @@ label {
     right: 20px;
     background-color: var(--blue);
     color: var(--white);
-    border: none;
+    border: 5px dotted black;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 1.5rem;
+    width: 70px;
+    height: 70px;
+    font-size: 1.0rem;
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }

@@ -15,7 +15,7 @@ function RegisterPage() {
       return;
     }
     
-    // Here you would typically send a request to your server to register the user
+    // Here user would typically send a request to your server to register the user
     console.log('Register attempt', { username, email, password });
     
     // For demo purposes, we'll just set a token in localStorage
@@ -27,13 +27,13 @@ function RegisterPage() {
   return (
 
     <div>
-      <nav className='dash-nav'>
-        <div className="logo">TaskMaster</div>
+       <nav className='dash-nav'>
+        <h1>TaskMaster</h1>
         <Link to="/">
           <button>Home</button>
         </Link>
       </nav>
-      
+
     <div className="container">
       
       <div className="card">
