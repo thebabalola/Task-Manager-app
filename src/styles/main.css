@@ -16,6 +16,7 @@ body {
     padding: 0;
 }
 
+
 /* Header Styles */
 header {
     background-color: var(--blue);
@@ -69,6 +70,10 @@ input, textarea, select, button {
     padding: 0.5rem;
     border: 1px solid var(--grey);
     border-radius: 3px;
+}
+
+input {
+    width: 95%;
 }
 
 button[type="submit"] {
@@ -169,7 +174,7 @@ label {
     margin-top: 20px;
 }
 
-.link {
+.btn {
     color: var(--blue);
     text-decoration: none;
 }

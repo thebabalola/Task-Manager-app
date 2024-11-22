@@ -27,7 +27,7 @@ function RegisterPage() {
   return (
     <div className="container">
       <div className="card">
-        <h1>Register for TaskMaster</h1>
+        <h1>Register</h1>
         <p className="subtitle">Create your account to get started</p>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
@@ -74,7 +74,7 @@ function RegisterPage() {
               required
             />
           </div>
-          <button type="submit" className="btn btn-primary">Register</button>
+          <button type="submit" className="btn btn-primary"> <Link to="/dashboard"> Register </Link></button>
         </form>
         <p className="text-center">
           Already have an account? <Link to="/login" className="link">Log in here</Link>
