@@ -50,10 +50,17 @@ nav button {
     background-color: var(--dark-blue);
     color: var(--white);
     border: none;
+    border-radius: 5px;
     padding: 0.5rem 1rem;
     margin-left: 1.5rem;
     cursor: pointer;
     gap:50px;
+    width: 110px;
+}
+
+nav button:hover {
+    background-color: #757575;
+    border: 3px solid black;
 }
 
 /* Main Content Styles */
@@ -76,6 +83,11 @@ section {
     min-width: 300px;
 }
 
+#taskForm button:hover {
+    background-color: #757575;
+    border: 3px solid black;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -86,6 +98,7 @@ input, textarea, select, button {
     padding: 0.5rem;
     border: 1px solid var(--grey);
     border-radius: 3px;
+    min-height: 40px;
 }
 
 button[type="submit"] {
@@ -99,6 +112,16 @@ button[type="submit"] {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+#filterSort select {
+    width: 50%;
+}
+
+#taskList input {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #tasks {
@@ -147,6 +170,8 @@ button[type="submit"] {
 
 .card > h1 {
     text-align: center;
+    border-bottom: 3px solid #e0e0e0;
+    padding-bottom: 5px; 
 }
 
 .subtitle {
